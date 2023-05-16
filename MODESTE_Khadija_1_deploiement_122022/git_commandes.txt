@@ -1,0 +1,11 @@
+Commandes sut Git Bach pour envoyer les fichiers à Github après d'avoir 
+déployer le code en local et créer un répertoire sur Github "tweetsentiment":
+
+git init
+git config --global user.name 'modestekhadija'
+git config --global user.email 'modestekhadija@gmail.com'
+git add .
+git commit -m 'Première_sauvegarde'
+git remote add origin https://github.com/modestekhadija/tweetsentiment.git
+git branch -M main
+git push -u origin main
